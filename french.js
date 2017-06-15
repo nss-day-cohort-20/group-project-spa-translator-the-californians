@@ -21,7 +21,8 @@ var Translate = (function(oldTranslate)
 		"truly" : "sincerement",
 		"sincerely" : "cordialement",
 		"friend" : "ami",
-		"love" : "amour"
+		"love" : "amour",
+		"day" : "journee"
 	}
 	oldTranslate.translateFrench = function(french)
 	{

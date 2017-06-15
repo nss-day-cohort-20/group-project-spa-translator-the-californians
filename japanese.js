@@ -22,7 +22,8 @@ var Translate = (function(oldTranslate)
 		"truly" : "本当に",
 		"sincerely" : "心から",
 		"friend" : "友人",
-		"love" : "愛"
+		"love" : "愛",
+		"day" : "友人"
 	}
 
 	return oldTranslate;
