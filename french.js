@@ -23,6 +23,9 @@ var Translate = (function(oldTranslate)
 		"friend" : "ami",
 		"love" : "amour"
 	}
-
+	oldTranslate.translateFrench = function(french)
+	{
+		return french;
+	}
 	return oldTranslate;
 }(Translate))
