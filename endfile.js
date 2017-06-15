@@ -35,11 +35,10 @@ translateBtn.addEventListener("click", function()
 			alert('Select a language, Please!');
 		}
 	msgArray = msgInEnglish.toLowerCase().split(" ");
-
 	var	msg = `<div class="page-header text-center">
   								<h1>Here is what you said in ${selectedDropDown}</h1>
   								<br>
-  								<br> <h2 class="greyText">` 
+  								<br> <h2 class="greyText">` ;
 	msgArray.forEach(function(item)
 	{
 		var getSelected = whatIsSelected(selectedDropDown);
