@@ -15,21 +15,21 @@
   <h4>Input your greeting and select your language</h4>
 </div>
 <div class="container">
-<textarea class="form-control textbox text-center" rows="4" placeholder="Happy International Yoga Day!
+<textarea class="form-control textbox text-center" id="textarea" rows="4" placeholder="Happy International Yoga Day!
 Your holiday is dumb. Have a healthy year!
 Sincerely - 'Your Name'"></textarea>
 </div>
 <div class="row">
 <div class="center-block">
 <div class="form-group dropDown ">
-    <select class="form-control" id="exampleSelect1">
-      <option id="french">French</option>
-      <option id="german">German</option>
-      <option id="japanese">Japanese</option>
+    <select class="form-control" id="dropDown">
+      <option id="french" value="french">French</option>
+      <option id="german" value="german">German</option>
+      <option id="japanese" value="japanese">Japanese</option>
     </select>
   </div>
 
-<button type="button" class="btn btn-primary submitButton" id="submit" onclick="">Translate</button>
+<button type="button" class="btn btn-primary submitButton" id="translateBtn" onclick="">Translate</button>
 </div>
 </div>
 </div>
@@ -42,6 +42,9 @@ Sincerely - 'Your Name'"></textarea>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="//code.jquery.com/jquery.min.js"></script>
-<script type="text/javascript" src="japanese.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="german.js"></script>
+<script type="text/javascript" src="french.js"></script>
+
 </body>
 </html>

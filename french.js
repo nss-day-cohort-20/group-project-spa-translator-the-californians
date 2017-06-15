@@ -1,6 +1,5 @@
 var Translate = (function(oldTranslate)
 {
-
 	oldTranslate.french = {
 		"hello" : "bonjour",
 		"happy" : "joyeux",
