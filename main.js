@@ -1,6 +1,6 @@
 var Translate = {};
 
-let translateBtn = document.getElementById('translateBtn'); 
+let translateBtn = document.getElementById('translateBtn');
 
 translateBtn.addEventListener("click", function()
 {
@@ -10,7 +10,7 @@ translateBtn.addEventListener("click", function()
 		console.log(selectedDropDown.value)
 	msgArray = msgInEnglish.toLowerCase().split(" ");
 		console.log(msgArray)
-	
+
 	msgArray.forEach(function(i)
 	{
 		console.log(i);
