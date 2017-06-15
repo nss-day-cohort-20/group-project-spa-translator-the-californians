@@ -21,7 +21,8 @@ var Translate = (function(oldTranslate)
 		"truly" : "wirklich",
 		"sincerely" : "Mit freundlichen Grüßen",
 		"friend" : "freund",
-		"love" : "liebe"
+		"love" : "liebe",
+		"day" : "tag"
 	}
 
 	return oldTranslate;
