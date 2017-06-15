@@ -6,7 +6,7 @@ $("#submit").click(function(){
   <h2 class="greyText">
 ハッピーインターナショナルヨガデイ！
 あなたの休暇はダムです。健康な一年を！
-敬具  - 'your name'</h2>
+敬具  - 'Your Name'</h2>
 </div>`);
 
 });
