@@ -13,3 +13,22 @@
 </script>
 </body>
 </html>
+
+<<<<<<< HEAD
+<script src="main.js"></script>
+<script src="german.js"></script>
+<script src="french.js"></script>
+<script type="text/javascript" src="japanese.js"></script>
+<script>
+	var msg ="Hello happy yoga day";
+	var Array = msg.toLowerCase().split(' ');
+	console.log(Array);
+	console.log(Translate.french.hello);
+	Array.forEach(function(i)
+	{
+		console.log(i);
+		console.log(Translate.french[i]);
+	})
+
+</script>
+=======
