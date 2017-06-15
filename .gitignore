@@ -9,14 +9,6 @@
 <script src="main.js"></script>
 <script src="french.js"></script>
 <script>
-var msg ="Hello happy yoga day";
-var Array = msg.toLowerCase().split(" ");
-console.log(Translate.french.hello);
-Array.forEach(function(i)
-{
-	console.log(i);
-	console.log(Translate.french.i);
-})
 
 </script>
 </body>

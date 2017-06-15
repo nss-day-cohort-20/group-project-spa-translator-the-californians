@@ -42,6 +42,21 @@ Sincerely - 'Your Name'"></textarea>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="//code.jquery.com/jquery.min.js"></script>
+<script src="main.js"></script>
+<script src="german.js"></script>
+<script src="french.js"></script>
 <script type="text/javascript" src="japanese.js"></script>
+<script>
+	var msg ="Hello happy yoga day";
+	var Array = msg.toLowerCase().split(' ');
+	console.log(Array);
+	console.log(Translate.french.hello);
+	Array.forEach(function(i)
+	{
+		console.log(i);
+		console.log(Translate.french[i]);
+	})
+
+</script>
 </body>
 </html>
