@@ -1,0 +1,42 @@
+.topHalfStyle {
+	text-align: center;
+	max-height: 50%;
+	border-bottom: 1px solid black;
+	padding-bottom: 2%;
+	min-height: 100%;
+}
+
+.textbox {
+	margin: 0 auto;
+	max-width: 50%;
+}
+
+.submitButton {
+	margin:0 auto;
+	width: 180px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: inline-block;
+}
+
+
+.dropDown {
+	margin:0 auto;
+	width: 180px;
+	display: inline-block;
+}
+
+.buttonWidth {
+	margin:0 auto;
+	width: 180px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: inline-block;
+}
+
+
+.translatedText {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+}
