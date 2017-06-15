@@ -36,7 +36,12 @@
 
 
 .translatedText {
-  min-height: 50vh;
+  /*min-height: 50vh;
   display: flex;
-  align-items: center;
+  align-items: center;*/
+}
+
+.greyText {
+	color: slategrey;
+	font-style: italic;
 }

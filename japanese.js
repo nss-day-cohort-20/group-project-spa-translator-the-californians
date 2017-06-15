@@ -1,6 +1,15 @@
 $("#submit").click(function(){
-	$(".translatedText").html(`<h1 id="translatedText" class="text-center">Happy International Yoga Day!
-Your holiday is dumb. Have a healthy year!
-Sincerely - 'your name'`);
+	$(".translatedText").html(`<div class="page-header text-center">
+  <h1>Here is what you said in Japanese</h1>
+  <br>
+  <br>
+  <h2 class="greyText">
+ハッピーインターナショナルヨガデイ！
+あなたの休暇はダムです。健康な一年を！
+敬具  - 'your name'</h2>
+</div>`);
 
 });
+
+
+
